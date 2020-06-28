@@ -1,5 +1,7 @@
 #include "headers.hpp"
 #include "./definition/mass.hpp"
+#include "./definition/velocity.hpp"
+#include "./definition/angular_calculations.hpp"
 
 /*
 
@@ -21,6 +23,19 @@ void qa_exec() {
 
 	get_double(&_mass, "Enter the mass: ");
 	mass_of_object.mass = _mass;
+
+	double initial_angle = 0;
+	get_double(&initial_angle, "Enter the launch angle: ");
+
+	double initial_speed = 0;
+	get_double(&initial_speed, "Enter the initial positive speed: ");
+
+	
+	Velocity vertical_initial_velocity = Velocity((const double)vertical_initial_velocity(initial_speed, initial_angle));
+	Velocity horizontal_initial_velocity = Velocity((const double)horizontal_initial_velocity(initial_speed, initial_angle));
+
+
+	
 
 }
 

@@ -32,3 +32,11 @@ double fundamental_equations::final_velocity(
     return sqrt(pow(initial_velocity, 2) + (2 * acceleration * distance));
 }
 
+
+double derived_equations::time(double distance, double acceleration) {
+	return sqrt((2 * distance) / acceleration);
+}
+
+double derived_equations::distance(double final_velocity, double initial_velocity, double acceleration) {
+	return ((pow(final_velocity, 2) - pow(initial_velocity, 2)) / (2 * acceleration));
+}

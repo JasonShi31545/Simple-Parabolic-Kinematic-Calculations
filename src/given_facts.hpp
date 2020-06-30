@@ -33,9 +33,8 @@ void qa_exec() {
 	
 	Velocity vertical_initial_velocity = Velocity((const double)vertical_initial_velocity(initial_speed, initial_angle));
 	Velocity horizontal_initial_velocity = Velocity((const double)horizontal_initial_velocity(initial_speed, initial_angle));
-
-
 	
+
 
 }
 

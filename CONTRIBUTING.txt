@@ -1,0 +1,23 @@
+
+CONTRIBUTIONS AND PROJECT MANAGEMENT
+
+- Rights:
+
+You can freely fork, clone or even pull this project to create your own based on this.
+You can leave comments, create issues, report bugs to this project thread.
+You can own this project for personal, non-conmmercial, community usages.
+
+Contributing guidelines:
+
+If you want to validate your contributions to this project after your pull-request, you'll have to follow the below guidelines:
+
+	- Project
+
+	1. If you push or made any adjustments or mordifications on critical branches, bugs and issues, project management etc. YOU MUST INFORM THE PROJECT LEADER WITH DETAILED AND CONCISE LANGUAGE.
+
+	2. You may not use this project in a commercial fashion.
+
+	- Programming and code contribution
+
+	1. You must format your code in a human readable fashion.
+	2. If you ever devised algorithms, and other functions. There must be a detailed comment description about the specific piece of code.

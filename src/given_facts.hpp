@@ -21,7 +21,7 @@ void qa_exec() {
 	Mass mass_of_object;
 	double _mass = 0;
 
-	get_double(&_mass, "Enter the mass: ");
+	get_double(&_mass, "Enter the mass (optional): ");
 	mass_of_object.mass = _mass;
 
 	double initial_angle = 0;
@@ -57,7 +57,7 @@ int get_double(double &d, std::string enquiry) {
 	std::cout << enquiry << std::endl;
 	std::cin >> buffer;
 
-	d = strtod(buffer);
+	d = strtod(buffer.c_str(), NULL);
 	return 0;
 
 }

@@ -15,14 +15,16 @@ namespace derived_equations {
 
 double distance(double final_velocity, double initial_velocity, double acceleration);
 
-/* GET THE TIME OF RISE & FALL FROM ACCELERATION. */
+/* TIME FOR RISING */
+
+double time(double final_velocity, double initial_velocity, double acceleration);
+
+/* TIME FOR LANDING */
 
 double time(double distance, double acceleration);
 
-
-
-/* GET THE HORIZONTAL DISTANCE USING THE FUNDAMENTAL EQUATION 1 */
-/* d = va * t */
+/* DISTANCE FROM AVERAGE_VELOCITY */
+/* ABOVE IN THE fundamental_equations NAMESPACE */
 
 }
 

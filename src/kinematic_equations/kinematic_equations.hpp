@@ -1,5 +1,9 @@
 #include "headers.hpp"
 
+#ifndef KINE_EQUATIONS_H
+#define KINE_EQUATIONS_H
+
+
 namespace fundamental_equations {
 
 double distance(double average_velocity, double time);
@@ -28,3 +32,4 @@ double time(double distance, double acceleration);
 
 }
 
+#endif // KINE_EQUATIONS_H

@@ -1,5 +1,8 @@
 #include "vector.hpp"
 
+#ifndef DISPLACEMENT_H
+#define DISPLACEMENT_H
+
 class Displacement: public Vector {
 
 public:
@@ -17,3 +20,5 @@ protected:
 private:
 
 }
+
+#endif // DISPLACEMENT_H

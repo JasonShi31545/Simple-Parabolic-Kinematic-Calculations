@@ -1,5 +1,7 @@
 #include "../header.hpp"
 
+#ifndef VECTOR_H
+#define VECTOR_H
 
 #define POSITIVE true
 #define NEGATIVE false
@@ -25,3 +27,5 @@ protected:
 private:
 
 }
+
+#endif // VECTOR_H

@@ -2,6 +2,9 @@
 #include "displacement.hpp"
 #include "velocity.hpp"
 
+#ifndef ACCELER_H
+#define ACCELER_H
+
 class Acceleration: public Vector {
 
 public:
@@ -19,3 +22,5 @@ public:
    }
     
 };
+
+#endif // ACCELER_H

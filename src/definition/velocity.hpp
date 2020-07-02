@@ -1,6 +1,10 @@
 #include "../headers.hpp"
 #include "displacement.hpp"
 
+#ifndef VELOCITY_H
+#define VELOCITY_H
+
+
 class Velocity: public Vector {
 
 public:
@@ -23,3 +27,5 @@ public:
    }
     
 };
+
+#endif // VELOCITY_H

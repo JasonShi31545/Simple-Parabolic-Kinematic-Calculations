@@ -1,6 +1,9 @@
 #include "..headers.hpp"
 #include "*.hpp"
 
+#ifndef MASS_H
+#define MASS_H
+
 class Mass {
 
 public:
@@ -25,3 +28,5 @@ public:
     
     
 }
+
+#endif // MASS_H

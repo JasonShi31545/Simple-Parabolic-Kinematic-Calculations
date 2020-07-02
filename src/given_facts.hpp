@@ -3,6 +3,9 @@
 #include "./definition/velocity.hpp"
 #include "./definition/angular_calculations.hpp"
 
+#ifndef GIVEN_H
+#define GIVEN_H
+
 /*
 
 CREATE AN INTERACTIVE USER EXPERIENCE BY Q/A
@@ -88,3 +91,4 @@ int get_char(char &c, std::string enquiry) {
 }
 
 
+#endif // GIVEN_H

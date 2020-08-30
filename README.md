@@ -11,4 +11,4 @@ The newest version of this project is %TAG.
 
 You can make pull requests to contribute. For more information, please consult with the CONTRIBUTING.txt document.
 
-__*Copyright © Jason Shi 2020-2021 All Rights Reserved*__
+__*The License of this software is based on GNU PUBLIC LICENSE v3*__

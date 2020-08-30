@@ -1,5 +1,5 @@
 
-# PARABOLIC KINEMATIC CALCULATIONS
+# Parabolic Kinematic Calculations
 
 ### Parabolic kinematic calculations is a program which calculates the kinematics of mass launched with initial velocity at a angle.
 ### __Note: This program shouldn't be used commercially or practically in serious scenarios. This program should only be used as a personal, non-commercial and only for learning, and exploration purposes.__
